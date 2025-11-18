@@ -100,7 +100,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
 	app.UseCors(policy => policy
-	   .WithOrigins("http://localhost:3000") // React default port
+	   .WithOrigins("http://localhost:3001") // React default port
 	   .AllowAnyMethod()
 	   .AllowAnyHeader()
 	   .AllowCredentials());
